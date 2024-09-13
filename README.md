@@ -1,4 +1,4 @@
-<h1>Statistical analysis of rockets, given a dataset</h1>
+<h1>Statistical analysis of missiles, given a dataset</h1>
 
 <h3>Imputation</h3>
 I used the <a href="https://cran.r-project.org/web/packages/mice/index.html">mice</a> package. <br>
