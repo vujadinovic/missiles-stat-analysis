@@ -21,11 +21,16 @@ After splitting the data in 80/20 ratio for training and testing respectively, w
 We use Mean Absolute Error as that seems better for this data.
 Let's see if we can get MAE down from ~890 using better model.
 
+<h3>Better models</h3>
+TO DO
 
-
+<h3>Classifier of the launcher mobility</h3>
+Now, we are trying to make a classifier that predicts if the launcher of the missile is mobile or isn't.
+"Silos" entry is the only fixed missile launcher type in the data, RM TEL being mobile vehicle specialized in carrying and launching missiles.
 
 
 Literature
 https://www.brahmos.com/content.php?id=10&sid=9
 https://medium.com/@byanalytixlabs/what-are-lasso-and-ridge-techniques-05c7f6630f6b
 https://www.geeksforgeeks.org/cross-validation-in-r-programming/
+https://www.statology.org/lasso-regression-in-r/
