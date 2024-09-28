@@ -16,6 +16,11 @@ The results from these analyses are combined to provide a single, <br>
 overall result that accounts for the variability between the different imputed datasets. <br>
 
 
+<h3>Splitting the data and training first models</h3>
+After splitting the data in 80/20 ratio for training and testing respectively, we train the naive linear regression model.
+We use Mean Absolute Error as that seems better for this data.
+Let's see if we can get MAE down from ~890 using better model.
+
 
 
 
