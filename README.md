@@ -30,7 +30,7 @@ Now, we are trying to make a classifier that predicts if the launcher of the mis
 
 
 Literature
-https://www.brahmos.com/content.php?id=10&sid=9
-https://medium.com/@byanalytixlabs/what-are-lasso-and-ridge-techniques-05c7f6630f6b
-https://www.geeksforgeeks.org/cross-validation-in-r-programming/
-https://www.statology.org/lasso-regression-in-r/
+https://www.brahmos.com/content.php?id=10&sid=9 <br>
+https://medium.com/@byanalytixlabs/what-are-lasso-and-ridge-techniques-05c7f6630f6b <br>
+https://www.geeksforgeeks.org/cross-validation-in-r-programming/ <br>
+https://www.statology.org/lasso-regression-in-r/ <br>
