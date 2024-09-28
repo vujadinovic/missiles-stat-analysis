@@ -3,7 +3,7 @@
 <h3>Introduction</h3>
 We are working with a dataset of ballistic missiles and their respective names, NATO reporting names, mass in kilograms,
 length in meters, caliber in meters, number of subheads, payload in kilograms, type (not in detail, just aggregate state) of fuel,
-maximal range, launch mode, number of engine stages and their class by range. <br>
+maximal range in kilometers, launch mode, number of engine stages and their class by range. <br>
 
 <h3>Imputation</h3>
 I used the <a href="https://cran.r-project.org/web/packages/mice/index.html">mice</a> package. <br>
