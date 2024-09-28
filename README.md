@@ -14,3 +14,13 @@ but multiple datasets are created with different estimates to reflect the uncert
 Each dataset is analyzed separately using standard statistical methods. <br>
 The results from these analyses are combined to provide a single, <br>
 overall result that accounts for the variability between the different imputed datasets. <br>
+
+
+
+
+
+
+Literature
+https://www.brahmos.com/content.php?id=10&sid=9
+https://medium.com/@byanalytixlabs/what-are-lasso-and-ridge-techniques-05c7f6630f6b
+https://www.geeksforgeeks.org/cross-validation-in-r-programming/
