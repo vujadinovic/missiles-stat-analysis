@@ -29,7 +29,7 @@ Now, we are trying to make a classifier that predicts if the launcher of the mis
 "Silos" entry is the only fixed missile launcher type in the data, RM TEL being mobile vehicle specialized in carrying and launching missiles.
 
 
-Literature
+Literature: <br>
 https://www.brahmos.com/content.php?id=10&sid=9 <br>
 https://medium.com/@byanalytixlabs/what-are-lasso-and-ridge-techniques-05c7f6630f6b <br>
 https://www.geeksforgeeks.org/cross-validation-in-r-programming/ <br>
