@@ -73,7 +73,7 @@ data_imp[ , "tip_goriva"] <- as.numeric(as.factor(data_imp[ , "tip_goriva"]))-1
 data_glm<-data_glm[ ,-c(1,2)]
 
 target_glm <- data_glm$nacin_lansiranja
-launcher<-c()
+launcher <- c()
 
 for(i in 1:39){
   if(target_glm[i]=="Silos"){
@@ -84,15 +84,15 @@ for(i in 1:39){
 }
 launcher
 
-dummy_podaci <- model.matrix(~ klasa_po_dometu - 1, data =data_glm)
+dummy <- model.matrix(~ klasa_po_dometu - 1, data =data_glm)
 data_glm<-data_glm[, -10]
-data_glm<-cbind(data_glm, dummy_podaci)
+data_glm<-cbind(data_glm, dummy)
 
 View(data_glm)
 
-dummy_podaci_1 <- model.matrix(~ nacin_lansiranja - 1, data = data_glm)
+dummy2 <- model.matrix(~ nacin_lansiranja - 1, data = data_glm)
 data_glm<-data_glm[, -8]
-data_glm<-cbind(data_glm, dummy_podaci_1)
+data_glm<-cbind(data_glm, dummy2)
 
 View(data_glm)
 
