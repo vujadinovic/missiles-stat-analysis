@@ -22,7 +22,11 @@ We use Mean Absolute Error as that seems better for this data.
 Let's see if we can get MAE down from ~890 using better model.
 
 <h3>Better models</h3>
-TO DO
+
+<h4>Principal Component Analysis</h4>
+Principal component analysis (PCA) is a linear dimensionality reduction technique.
+As there are three maximal range categories: S, M and L, by identifying them as groups we can better predict <br>
+specific maximal range of a missile, after putting Linear Regression model on such data.
 
 <h3>Classifier of the launcher mobility</h3>
 Now, we are trying to make a classifier that predicts if the launcher of the missile is mobile or isn't.
@@ -33,4 +37,5 @@ Literature: <br>
 https://www.brahmos.com/content.php?id=10&sid=9 <br>
 https://medium.com/@byanalytixlabs/what-are-lasso-and-ridge-techniques-05c7f6630f6b <br>
 https://www.geeksforgeeks.org/cross-validation-in-r-programming/ <br>
-https://www.statology.org/lasso-regression-in-r/ <br>
+https://www.statology.org/lasso-regression-in-r/ <br> 
+https://www.datacamp.com/tutorial/pca-analysis-r <br>
